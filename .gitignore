@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.whl
+
+# EasyOCR model cache（运行时自动下载，无需提交）
+.cache/
+.easyocr_models/
+
+# Streamlit
+.streamlit/
+
+# Environment
+.env
+.env.local
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PDF output（下载临时文件）
+*.pdf
